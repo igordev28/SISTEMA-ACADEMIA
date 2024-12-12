@@ -1,0 +1,57 @@
+/* style.css */
+
+/* ESTILO DO PLANO DE FUNDO */
+body {
+    background-image: url('images/academia.jpg'); /* CAMINHO DA IMAGEM */
+    background-size: cover; /* AJUSTA A IMAGEM PARA COBRIR */
+    background-position: center; /* CENTRALIZA A IMAGEM */
+    background-repeat: no-repeat; /* EVITA REPETIÇÕES */
+    background-attachment: fixed; /* IMAGEM FIXA AO ROLAR */
+    color: #333; /* AJUSTA A COR DO TEXTO */
+    font-family: Arial, sans-serif; /* FONTE PADRÃO */
+    margin: 0; /* REMOVE ESPAÇAMENTO EXTRA */
+    padding: 0; /* REMOVE ESPAÇAMENTO EXTRA */
+  }
+  
+  /* CONTAINER DE CONTEÚDO COM ESTILO */
+  .container {
+    background: rgba(255, 255, 255, 0.8); /* FUNDO TRANSPARENTE */
+    border-radius: 10px; /* CANTOS ARREDONDADOS */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* SOMBRA */
+    padding: 20px;
+  }
+  
+  /* LINKS DA NAVBAR */
+  .navbar .nav-link {
+    color: #0056b3;
+    font-weight: bold;
+  }
+  
+  .navbar .nav-link:hover {
+    color: #ff5733; /* COR AO PASSAR O MOUSE */
+  }
+
+  /* ESTILO PARA O FOOTER */
+footer.footer {
+    background-color: #004085; /* COR DE FUNDO DO FOOTER */
+    color: #0a0a0a; /* COR DO TEXTO */
+    padding: 15px 0; /* ESPAÇAMENTO INTERNO */
+    font-size: 14px; /* TAMANHO DO TEXTO */
+    box-shadow: 0px -4px 6px rgba(0, 0, 0, 0.1); /* SOMBRA PARA DESTACAR */
+  }
+  
+  footer.footer .text-center {
+    margin: 0; /* REMOVE MARGEM EXTRA */
+  }
+  
+  footer.footer a {
+    color: #0c0c0b; /* COR DOS LINKS */
+    text-decoration: none; /* REMOVE O SUBLINHADO */
+  }
+  
+  footer.footer a:hover {
+    color: #ff5733; /* COR DOS LINKS AO PASSAR O MOUSE */
+    text-decoration: underline; /* SUBLINHA AO PASSAR O MOUSE */
+  }
+  
+  
